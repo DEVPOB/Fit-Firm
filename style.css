@@ -21,7 +21,7 @@ nav{
     width: 100%;
     height: 80px;
     display:flex;
-    background-color: rgba(0, 0, 0, 0.466);
+    background-color: rgba(0, 0, 0, 0.24);
     padding: 0px 45px;
     position: fixed;
     justify-content:space-between;
@@ -46,11 +46,15 @@ nav ul li{
 }
 nav ul li a {
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 60px;
     color: #ff7f24;
     font-size: 35px;
     text-transform: uppercase;
-    padding: 0px 30px;
+    text-align: right;
+    padding: 0px 0px;
+}
+.bg{
+    background-color: black;
 }
 
 .scrolling-box{
@@ -67,7 +71,7 @@ nav ul li a {
 .box2{
     display: flex;
     width: 100%;
-    height: 200vh;
+    height: 180vh;
     color: #fff;
 }
 .box1{
@@ -79,19 +83,69 @@ nav ul li a {
     
 }
 .box1text{
-    padding-top: 150px;
+    padding-top: 250px;
     padding-left: 30px;
     font-size: 65px;
 }
 .Box1TextInDes{
     font-size: 25px;
 }
-.box2{
+.btn {
     background-color: #ff7f24;
+    border:none;
+    color: black;
+    font-size: 45px;
+    padding: 10px 10px;
+    text-decoration: none;
 }
-.box3{
+/* Information */
+.box2{
+    padding-top: 50px;
     background-color: rgb(15, 19, 19);
 }
+.box2text{
+    padding-left: 40px;
+    font-size: 30px;
+    color: #ff7f24;
+}
+.box2text li{
+    padding-left: 40px;
+    color: #fff;
+    font-size: 20px;
+}
+table, th ,td {
+    padding-top: 10px;
+    
+    border: 2px solid rgb(255, 255, 255);
+}
+table{
+    border-collapse: collapse;
+}
+
+.textFooter li a{
+    text-decoration: none;
+    color: white;
+}
+.btn2{
+    background-color: #ff7f24;
+    color: black;
+    font-size: 30px;
+    padding: 5px;
+    text-decoration: none;
+}
+.ForPaddingBtn{
+    padding-top: 20px;
+}
+
+/* Demonstration */
+.box3{
+    padding-top: 70px;
+    background-color: rgb(15, 19, 19);
+}
+.box3text{
+    padding-left: 50%;
+}
+/* about me */
 .box4{
-    background-color: rgb(18, 24, 19);
+    background-color: rgb(15, 19, 19);
 }
