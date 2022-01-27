@@ -11,26 +11,27 @@
     background-color: rgb(0, 0, 0);
 }
 body, html{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     scroll-behavior: smooth;
     font-family: 'Prompt', sans-serif;
 }
 
 nav{
-    width: 100%;
-    height: 80px;
+    min-width: 100%;
+    min-height: 10%;
     display:flex;
     background-color: rgba(0, 0, 0, 0.24);
     padding: 0px 45px;
     position: fixed;
     justify-content:space-between;
     align-items: center;
+    z-index: 5;
     
 }
 nav .logo{
-    font-size: 50px;
-    letter-spacing: 1.5;
+    font-size: 3rem;
+    letter-spacing: 1.5px;
 }
 nav .logo a{
     float: left;
@@ -48,7 +49,7 @@ nav ul li a {
     text-decoration: none;
     margin-right: 60px;
     color: #ff7f24;
-    font-size: 35px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     text-align: right;
     padding: 0px 0px;
@@ -61,25 +62,27 @@ nav ul li a {
     width: 100%;
     height: auto;
 }
-.box1,  .box3, .box4{
+.box1,  .box3 /*.box4*/{
     display:  flex;
-    width: 100%;
-    height: 100vh;
+    min-width: 100%;
+    min-height: 100vh;
     color: #fff;
 
 }
 .box2{
     display: flex;
-    width: 100%;
-    height: 180vh;
+    min-width: 100%;
+    min-height: 180vh;
     color: #fff;
 }
+
 .box1{
     /* text */
     background-image: url("BG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;    
+    background-position: center;  
+    background-attachment: fixed;  
     
 }
 .box1text{
@@ -114,7 +117,7 @@ nav ul li a {
     font-size: 20px;
 }
 table, th ,td {
-    padding-top: 10px;
+    padding-top: 5%;
     
     border: 2px solid rgb(255, 255, 255);
 }
@@ -142,10 +145,54 @@ table{
     padding-top: 70px;
     background-color: rgb(15, 19, 19);
 }
-.box3text{
-    padding-left: 50%;
+
+.onvideo{
+    padding-left: 40px;
+    justify-content: center;
+}
+.onvideo:hover{
+    width: 600;
+    
+}
+
+.VideoOnBox3 p{
+    font-size: 2vw;
+    text-align: center;
+}
+.ForPaddingBtn1{
+    padding: 40px;
+}
+.btn3{
+    background-color: #ff7f24;
+    border:none;
+    color: black;
+    font-size: 35px;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.textbox3footer{
+    align-items: center;
+    font-size: 45px;
 }
 /* about me */
 .box4{
     background-color: rgb(15, 19, 19);
+}
+@media screen and (max-width:994){
+    nav{
+        width: 5%;
+    }
+    .box1,  .box3 /*.box4*/{
+        display:  flex;
+        min-width: 100%;
+        min-height: 100vh;
+        color: #fff;
+    
+    }
+    .box2{
+        display: flex;
+        min-width: 100%;
+        min-height: 180vh;
+        color: #fff;
+    }
 }
