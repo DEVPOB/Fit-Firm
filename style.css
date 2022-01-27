@@ -48,12 +48,14 @@ nav ul li{
 nav ul li a {
     text-decoration: none;
     margin-right: 60px;
-    color: #ff7f24;
+    color: #ffffff;
     font-size: 1.5rem;
     text-transform: uppercase;
     text-align: right;
     padding: 0px 0px;
+    
 }
+
 .bg{
     background-color: black;
 }
@@ -100,7 +102,12 @@ nav ul li a {
     font-size: 45px;
     padding: 10px 10px;
     text-decoration: none;
+    
 }
+.btn:hover{
+
+}
+
 /* Information */
 .box2{
     padding-top: 50px;
@@ -136,6 +143,9 @@ table{
     padding: 5px;
     text-decoration: none;
 }
+.btn2:hover{
+    width: 50px;
+}
 .ForPaddingBtn{
     padding-top: 20px;
 }
@@ -150,10 +160,8 @@ table{
     padding-left: 40px;
     justify-content: center;
 }
-.onvideo:hover{
-    width: 600;
-    
-}
+
+
 
 .VideoOnBox3 p{
     font-size: 2vw;
