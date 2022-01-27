@@ -64,7 +64,7 @@ nav ul li a {
     width: 100%;
     height: auto;
 }
-.box1,  .box3 /*.box4*/{
+.box1,  .box3, .box4{
     display:  flex;
     min-width: 100%;
     min-height: 100vh;
@@ -102,11 +102,8 @@ nav ul li a {
     font-size: 45px;
     padding: 10px 10px;
     text-decoration: none;
-    
 }
-.btn:hover{
 
-}
 
 /* Information */
 .box2{
@@ -143,9 +140,7 @@ table{
     padding: 5px;
     text-decoration: none;
 }
-.btn2:hover{
-    width: 50px;
-}
+
 .ForPaddingBtn{
     padding-top: 20px;
 }
@@ -185,6 +180,12 @@ table{
 /* about me */
 .box4{
     background-color: rgb(15, 19, 19);
+}
+.box4text{
+    padding-top: 30px;
+    padding-left: 40px;
+    color: #ff7f24;
+    font-size: 45px;
 }
 @media screen and (max-width:994){
     nav{
