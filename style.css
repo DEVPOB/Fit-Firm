@@ -38,6 +38,14 @@ nav .logo a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
+    transition: color 0.5s;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -ms-transition: color 0.5s;
+    -o-transition: color 0.5s;
+}
+nav .logo a:hover{
+    color: #ff7f24;
 }
 nav ul{
     float: right;
@@ -53,8 +61,35 @@ nav ul li a {
     text-transform: uppercase;
     text-align: right;
     padding: 0px 0px;
-    
+    transition: font-size 1s;
+    -webkit-transition: font-size 1s;
+    -moz-transition: font-size 1s;
+    -ms-transition: font-size 1s;
+    -o-transition: font-size 1s;
 }
+nav ul li a:hover{
+    font-size: 1.8rem;
+    color: #ff7f24;
+}
+.activeHomeclass a{
+    font-size: 1.8rem;
+    color: #ff7f24;
+}
+
+.activeInfoclass a{
+    font-size: 1.8rem;
+    color: #ff7f24;
+}
+.activeDemoclass a{
+    font-size: 1.8rem;
+    color: #ff7f24;
+}
+.activeAboutmeclass a{
+    font-size: 1.8rem;
+    color: #ff7f24;
+}
+
+
 
 .bg{
     background-color: black;
@@ -187,21 +222,4 @@ table{
     color: #ff7f24;
     font-size: 45px;
 }
-@media screen and (max-width:994){
-    nav{
-        width: 5%;
-    }
-    .box1,  .box3 /*.box4*/{
-        display:  flex;
-        min-width: 100%;
-        min-height: 100vh;
-        color: #fff;
-    
-    }
-    .box2{
-        display: flex;
-        min-width: 100%;
-        min-height: 180vh;
-        color: #fff;
-    }
-}
+
