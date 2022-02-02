@@ -1,8 +1,6 @@
-/* *{
-
-} */
 ::-webkit-scrollbar{
     width: 10px;
+    
 }
 ::-webkit-scrollbar-thumb{
     background-color: #ff7f24;
@@ -60,7 +58,6 @@ nav ul li a {
     font-size: 1.5rem;
     text-transform: uppercase;
     text-align: right;
-    padding: 0px 0px;
     transition: font-size 1s;
     -webkit-transition: font-size 1s;
     -moz-transition: font-size 1s;
@@ -68,24 +65,28 @@ nav ul li a {
     -o-transition: font-size 1s;
 }
 nav ul li a:hover{
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #ff7f24;
 }
 .activeHomeclass a{
-    font-size: 1.8rem;
+    text-decoration: underline;
+    font-size: 2rem;
     color: #ff7f24;
 }
 
 .activeInfoclass a{
-    font-size: 1.8rem;
+    text-decoration: underline;
+    font-size: 2rem;
     color: #ff7f24;
 }
 .activeDemoclass a{
-    font-size: 1.8rem;
+    text-decoration: underline;
+    font-size: 2rem;
     color: #ff7f24;
 }
 .activeAboutmeclass a{
-    font-size: 1.8rem;
+    text-decoration: underline;
+    font-size: 2rem;
     color: #ff7f24;
 }
 
@@ -130,14 +131,28 @@ nav ul li a:hover{
 .Box1TextInDes{
     font-size: 25px;
 }
-.btn {
+.btn{
     background-color: #ff7f24;
     border:none;
     color: black;
-    font-size: 45px;
+    font-size: 35px;
     padding: 10px 10px;
     text-decoration: none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: letter-spacing 0.5s;
+    -webkit-transition: letter-spacing 0.5s;
+    -moz-transition: letter-spacing 0.5s;
+    -ms-transition: letter-spacing 0.5s;
+    -o-transition: letter-spacing 0.5s;
 }
+.btn:hover{
+    letter-spacing: 2.5px;
+}
+
 
 
 /* Information */
@@ -174,8 +189,20 @@ table{
     font-size: 30px;
     padding: 5px;
     text-decoration: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: letter-spacing 0.5s;
+    -webkit-transition: letter-spacing 0.5s;
+    -moz-transition: letter-spacing 0.5s;
+    -ms-transition: letter-spacing 0.5s;
+    -o-transition: letter-spacing 0.5s;
 }
-
+.btn2:hover{
+    letter-spacing: 2.5px;
+}
 .ForPaddingBtn{
     padding-top: 20px;
 }
@@ -195,7 +222,6 @@ table{
 
 .VideoOnBox3 p{
     font-size: 2vw;
-    text-align: center;
 }
 .ForPaddingBtn1{
     padding: 40px;
@@ -207,6 +233,19 @@ table{
     font-size: 35px;
     padding: 10px 10px;
     text-decoration: none;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    transition: letter-spacing 0.5s;
+    -webkit-transition: letter-spacing 0.5s;
+    -moz-transition: letter-spacing 0.5s;
+    -ms-transition: letter-spacing 0.5s;
+    -o-transition: letter-spacing 0.5s;
+}
+.btn3:hover{
+    letter-spacing: 2.5px;
 }
 .textbox3footer{
     align-items: center;
