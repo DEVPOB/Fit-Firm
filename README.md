@@ -1,2 +1,2 @@
 # WebSiteForSchool
-[https://devpob.github.io/WebSiteForSchool/](https://devpob.github.io/Fit-Firm/)
+[Fit-Firm Website](https://devpob.github.io/Fit-Firm/)
